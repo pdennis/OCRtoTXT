@@ -4,7 +4,7 @@ A small script that takes PDF scans as input, OCR's them, and outputs said text 
 I've successfully used this tool both on Ubuntu 18.04 and MacOS Mojave 10.14.1. With some quick modifications,
 this would also be a good tool to power through a large number of scanned PDFs.
 
-But this thing won't work unless you have installed and properly configured Tesseract ImageMagick, and Ghostscript. 
+But this thing won't work unless you have installed and properly configured Tesseract, ImageMagick, and Ghostscript. 
 
 on Ubuntu, run sudo apt-get install imagemagick ghostscript tesseract-ocr
 on MacOS, assuming you have Homebrew installed, run brew install imagemagick ghostscript tesseract
