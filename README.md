@@ -6,8 +6,14 @@ this would also be a good tool to power through a large number of scanned PDFs.
 
 But this thing won't work unless you have installed and properly configured Tesseract, ImageMagick, and Ghostscript. 
 
-on Ubuntu, run sudo apt-get install imagemagick ghostscript tesseract-ocr
-on MacOS, assuming you have Homebrew installed, run brew install imagemagick ghostscript tesseract
+on Ubuntu, run 
+
+sudo apt-get install imagemagick ghostscript tesseract-ocr
+
+
+on MacOS, assuming you have Homebrew installed, run 
+
+brew install imagemagick ghostscript tesseract
 
 Next, you need to tell ImageMagick to allocate enough memory for itself. By default it only allocates itslef like 1gig of memory. 
 I gave it about 7gigs as a swap file, and boosted other values as well. 
